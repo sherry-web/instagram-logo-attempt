@@ -1,0 +1,61 @@
+.logo{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    height: 150px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 10px;
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25%;
+    padding: 5px;
+    margin-bottom:5px;
+    background-image: linear-gradient(#405De6,transparent 30%), radial-gradient(circle at top left #405De6,transparent 50%), radial-gradient(circle at right #E1306c, transparent 80%), radial-gradient(circle at bottom left,#ffdc80,#FcaF45, #f77737, #f56040 60%, #fd1d1d);
+}
+
+.innerbox{
+    width: 70%;
+    height: 70%;
+    outline: 8px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 27%;
+    position: relative;
+}
+
+.circle{
+    width: 40%;
+    height: 40%;
+    outline: 8px solid white;
+    border-radius: 100%;
+}
+
+span{
+    display: inline-block;
+    width: 15%;
+    height: 15%;
+    background: white;
+    position:absolute;
+    top: 7px;
+    right: 7px;
+    border-radius: 100%;
+
+}
+
+.text{
+    margin: 0;
+    font-size: 1.5em;
+    font-weight: bold;
+}
